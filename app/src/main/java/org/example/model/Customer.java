@@ -1,7 +1,7 @@
 package org.example.model;
 
 import jakarta.persistence.*;
-@Entity
+@Entity 
 public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)//don't create a separate seq table and use mySQL auto increment
