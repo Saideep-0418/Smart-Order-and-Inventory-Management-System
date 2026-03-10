@@ -4,7 +4,7 @@ import org.example.Service.CustomerService;
 import org.example.model.Customer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+ 
 import java.util.List;
 
 @RestController // Controller+response body , only return the data not the view name
