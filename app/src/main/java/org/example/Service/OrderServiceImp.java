@@ -4,7 +4,7 @@ import jakarta.persistence.EntityNotFoundException;
 import org.example.model.Customer;
 import org.example.model.Order;
 import org.example.model.OrderItem;
-import org.example.model.User;
+import org.example.model.User; 
 import org.example.repository.CustomerRepo;
 import org.example.repository.OrderRepo;
 import org.example.repository.UserRepo;
