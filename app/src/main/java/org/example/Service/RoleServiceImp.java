@@ -2,7 +2,7 @@ package org.example.Service;
 
 import org.example.model.Role;
 import org.example.repository.RoleRepo;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.stereotype.Service;
 
 import java.util.List;
