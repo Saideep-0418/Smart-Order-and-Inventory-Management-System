@@ -3,7 +3,7 @@ package org.example.controller;
 import jakarta.persistence.criteria.CriteriaBuilder;
 import org.example.Service.InventoryService;
 import org.example.model.Inventory;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.ResponseEntity; 
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
