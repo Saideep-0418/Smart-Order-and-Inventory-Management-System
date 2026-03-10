@@ -3,7 +3,7 @@ package org.example.Service;
 import jakarta.persistence.EntityNotFoundException;
 import org.example.model.Notification;
 import org.example.model.User;
-import org.example.repository.NotificationRepo;
+import org.example.repository.NotificationRepo; 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
