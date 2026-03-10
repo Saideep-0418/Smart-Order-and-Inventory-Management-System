@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
-@Repository
+@Repository 
 
 public interface ProductRepo extends JpaRepository<Product,Long> {
     Optional<Product> findBySku(String sku);
