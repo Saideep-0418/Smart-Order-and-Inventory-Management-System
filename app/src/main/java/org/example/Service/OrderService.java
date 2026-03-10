@@ -3,7 +3,7 @@ package org.example.Service;
 import org.example.model.Order;
 import java.util.List;
 import java.util.Optional;
-public interface OrderService {
+public interface OrderService { 
     Order createOrder(Order order);
     List<Order> getAllOrders();
     Optional<Order> getOrderById(long id);
