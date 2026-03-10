@@ -3,7 +3,7 @@ package org.example.controller;
 import jakarta.persistence.EntityNotFoundException;
 import org.example.Service.NotificationService;
 import org.example.Service.UserService;
-import org.example.model.Notification;
+import org.example.model.Notification; 
 import org.example.model.User;
 import org.springframework.web.bind.annotation.*;
 
