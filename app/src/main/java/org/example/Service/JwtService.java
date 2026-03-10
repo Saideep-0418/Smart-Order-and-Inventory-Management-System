@@ -3,7 +3,7 @@ package org.example.Service;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
-import io.jsonwebtoken.security.Keys;
+import io.jsonwebtoken.security.Keys; 
 import org.example.model.User;
 
 import org.springframework.beans.factory.annotation.Value;
