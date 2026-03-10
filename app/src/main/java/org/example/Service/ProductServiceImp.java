@@ -7,7 +7,7 @@ import org.example.model.Product;
 import org.example.model.User;
 import org.example.repository.InventoryRepo;
 import org.example.repository.OrderItemRepo;
-import org.example.repository.ProductRepo;
+import org.example.repository.ProductRepo; 
 import org.example.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
