@@ -2,7 +2,7 @@ package org.example.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
-@Entity
+@Entity 
 public class Inventory {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
