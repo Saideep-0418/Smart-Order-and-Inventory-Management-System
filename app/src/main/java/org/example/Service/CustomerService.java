@@ -5,7 +5,7 @@ import org.example.model.Customer;
 import java.util.List;
 import java.util.Optional;
 
-public interface CustomerService {
+public interface CustomerService { 
     Customer registerCustomer(Customer customer);
     List<Customer> getAllCustomers();
     Customer updateCustomer(long id, Customer updated);
