@@ -4,7 +4,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.example.model.Product;
 import org.example.model.User;
 import org.example.repository.UserRepo;
-import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.Async; 
 import org.springframework.stereotype.Service;
 
 import java.util.List;
